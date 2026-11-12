@@ -1,0 +1,8 @@
+gold,static,analyst,analyst_hybrid,operator,operator_hybrid,ood,error,n
+static,0,69,0,1,0,0,0,70
+analyst,0,38,0,1,0,1,0,40
+analyst_hybrid,0,24,0,0,0,0,0,24
+operator,0,0,0,28,0,0,0,28
+operator_hybrid,0,0,0,23,0,0,0,23
+ood,0,29,0,6,0,0,0,35
+total,0,160,0,59,0,1,0,220

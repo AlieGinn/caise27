@@ -1,0 +1,46 @@
+id,query,tag,category,annotator2_route,notes
+A06,"On this run, how is customer demand being generated?",clarified,Data Science,analyst,Live-run cue; no lever and no explicit docs request
+A29,"Using this session's samplers and last-run KPIs, investigate the impact of interarrival timing on event chronology.",clarified,Process Simulation,analyst,Uses last-run KPIs; no new world
+A05,"On this run, what is the typical shipment lead time from dispatch to delivery?",core,Logistics Analysis,analyst,
+A15,"On this run, how many days were we in stockout?",core,Risk Analysis,analyst,
+A20,"On this run, what is the total demand quantity?",core,Demand Analysis,analyst,
+A22,Assess the Lead Time (PLT) disconnect for the promoted sub-assembly 5947202.,core,Data Gaps,analyst,Named part live readout; no lever
+O10,Identify the current stock levels for leaf components.,core,Monitoring,analyst,Current stock is live inventory
+O14,Monitor the production_batches_completed in real-time.,core,Monitoring,analyst,
+O17,Calculate the shortfall_order_qty for the latest production gap.,core,Operational Action,analyst,Latest-gap arithmetic; no execution
+O20,Review the ship_delay_days for the last completed shipment.,core,Quality Check,analyst,
+T02,"From the live BOM tree in this session, list direct children of 021XBXXXXXXF04.",trap,Trap Alternate Reading,analyst,Live tree readout
+AH06,Relate both the on-screen production_batches_completed value and the documented step_completion_rate formula; do not change shocks or run.,clarified,Assembly Grounding,analyst_hybrid,Explicit live+docs; no run
+AH01,Why is our backlog high on the dashboard relative to the documented fill-rate formula?,core,Live-Doc Interpretation,analyst_hybrid,
+P05,"Without running a scenario, explain on-screen service_level using the documented formula",probe_hybrid,Probe Hybrid Bit,analyst_hybrid,
+O11,Trigger a reorder for part 5947202; it dropped below safety stock.,core,Operational Action,operator,Execution-now request; reorder may not be a first-class lever
+O15,Raise the shock slider upper limit to +300% for extreme stress testing.,core,System Calibration,ood,UI bound change not a simulation lever
+O29,Run a diagnostic on the hash(part) function.,core,System Diagnostics,ood,Internal diagnostic; not run/replay/shock
+X01,What is the recipe for a traditional Turkish coffee?,core,Irrelevant Query,ood,
+X03,Please write a poem about digital twins.,core,Creative Content,ood,
+X09,What are the stock prices for Amazon today?,core,External Information,ood,
+P03,Turn on the KDE sampler engine now,probe_ood,Probe Unsupported Lever,ood,Unsupported engine switch; not listed lever
+A11,Set the order quantity shock to +20% and replay the scenario.,core,Inventory Optimization,operator,
+O02,Set the global shock for all suppliers to +25% for the next run.,core,Parameter Tuning,operator,
+O04,Set safety stock to 80.,core,Inventory Update,operator,Planning lever
+O12,Change the horizon_days setting to 180 for the next simulation cycle.,core,Execution Control,operator,
+O13,Apply a composite shock of +10% to the production duration of sub-assemblies.,core,Parameter Tuning,operator,
+O26,Adjust the global shock for Order Quantity to +100%.,core,Parameter Tuning,operator,
+T01,Propose a replay with Sales_Qty_pct=-100; do not explain slider docs.,trap,Trap Alternate Reading,operator,Replay+shock; docs explicitly not requested
+OH04,Advance the simulation 30 days and then interpret inventory position from the documented formula.,clarified,Continue + Interpretation,operator_hybrid,
+OH05,Set +100% order quantity shock and interpret surplus handling per documentation.,core,Shock + Interpretation,operator_hybrid,
+OH06,Run scenario with +200% supplier lead time and explain p90 lead days vs resiliency documentation.,core,Stress + Interpretation,operator_hybrid,
+P06,Advance +30d and then interpret inventory position from the documented formula,probe_hybrid,Probe Hybrid Bit,operator_hybrid,
+A17,"Using only the documented formula, deduce the effective_fill_rate if the composite shock is +50%. Do not run a scenario.",clarified,Supply Chain Logic,static,Hypothetical formula application; no live no run
+A10,What is the statistical significance of chronological shuffling via seed modification?,core,Statistical Analysis,static,Asks about a documented mechanism not to change seed
+A14,How does the system prevent artificial mathematical cross-correlation between samplers?,core,System Architecture,static,
+A18,Explain the 'multiplier(composite shock)' application in completion rate calculations.,core,Assembly Logic,static,
+A24,Explain how 'dynamic benchmarking' will determine future sampling methods.,core,Future Integration,ood,Future capability; not current documented how-to
+S01,What is the documented default replenishment lead days for finished good 021XBXXXXXXF04?,core,Planning Fundamentals,static,
+S02,How is the base stock level calculated in the DT architecture?,core,Planning Fundamentals,static,
+S08,What is the lower bound cap for demand shocks?,core,Statistical Boundaries,static,
+S13,Name the lead beneficiary for the project.,core,Project Metadata,static,
+S16,What is the effective formula for step_completion_rate?,core,Assembly Logic,static,
+S17,Define the clip function used in formulas.,core,Effective Formulas,static,
+S30,Which metrics are listed in the documented KPI dictionary?,core,KPIs,static,
+P01,What is the documented default replenishment lead for 021XBXXXXXXF04? Do not use live inventory.,probe_conflict,Probe Conflict Veto,static,

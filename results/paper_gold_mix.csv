@@ -1,0 +1,14 @@
+kind,label,n
+gold,static,70
+gold,analyst,40
+gold,ood,35
+gold,operator,28
+gold,analyst_hybrid,24
+gold,operator_hybrid,23
+tag,core,188
+tag,clarified,23
+tag,probe_ood,3
+tag,trap,2
+tag,probe_conflict,2
+tag,probe_hybrid,2
+total,eval,220

@@ -1,0 +1,4 @@
+kind,n,ids,note
+tinybert_trainval_exact,0,,train/val ∩ official eval
+decoder_fewshot_exact,0,,prompt User ∩ eval; assert 0; prompt User count=30
+decoder_fewshot_near_paraphrase,4,"A12,O25,AH01,AH02",footnote only; not held out

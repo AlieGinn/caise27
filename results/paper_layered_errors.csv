@@ -1,0 +1,5 @@
+architecture,label,n,route_match,card_ood,owned_card_gold_not_ood,gold_ood_card,tool_schema_error,checklist_pass,silent_safe,silent_misroute,o22_final,o22_route_match,o22_checklist
+fat_agent,A Fat,220,66,1,1,0,0,65,67,153,operator,True,True
+decoder_only,B Decoder-only,220,144,0,0,0,0,148,144,76,operator,True,True
+decoder_led,"C tiny-encoder+decoder, no card",220,157,0,0,0,0,162,157,63,operator,True,True
+production,D Production,220,167,28,9,19,1,157,176,44,error,False,False

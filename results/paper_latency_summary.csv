@@ -1,0 +1,5 @@
+architecture,label,n_latency,p50_ms,p95_ms,mean_ms,note
+fat_agent,A Fat,127,13864.7,70486.2,23859.0,end-to-end; not a contribution
+decoder_only,B Decoder-only,127,27820.5,100200.0,37249.4,end-to-end; not a contribution
+production,D Production,127,26883.3,143356.9,43312.2,end-to-end; not a contribution
+decoder_led,"C tiny-encoder+decoder, no card",127,38637.0,157168.3,54297.0,end-to-end; not a contribution

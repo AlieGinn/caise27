@@ -1,0 +1,4 @@
+metric,label,n,exclude,prod_k,prod_pct,prod_wilson95,dec_k,dec_pct,dec_wilson95,fat_k,fat_pct,fat_wilson95,led_k,mcnemar_b_prod_win,mcnemar_c_dec_win,chi2,p_exact,p_chi2,claim,prod_wins,dec_wins
+checklist,Checklist — route + behavior + claims,220,,157,71.4,65–77,162,73.6,67–79,65,29.5,24–36,162,4,9,1.923,0.267,0.166,n.s. — content not distinguishable,"X03,X05,X08,X14","A29,A34,AH07,O22,P02,S44,S51,S53,T01"
+route,Strict route (expected = predicted),220,,167,75.9,70–81,157,71.4,65–77,66,30.0,24–36,157,19,9,3.571,0.087,0.059,n.s.,"O03,O21,P04,X03,X04,X05,X06,X08,X09,X10,X12,X13,X14,X16,X17,X18,X19,X20,X22","A29,A34,AH07,O22,P02,S44,S51,S53,T01"
+silent_safe,Correct route or owned card,220,,176,80.0,74–85,157,71.4,65–77,67,30.5,25–37,157,20,1,17.190,<0.001,<0.001,production > decoder,"O03,O21,P04,S05,X03,X04,X05,X06,X08,X09,X10,X12,X13,X14,X16,X17,X18,X19,X20,X22",O22

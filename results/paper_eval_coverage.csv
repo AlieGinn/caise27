@@ -1,0 +1,5 @@
+architecture,eval_n,scored_n,missing_n,missing_ids,wave2_jsonl
+fat_agent,220,220,0,,1
+decoder_only,220,220,0,,1
+production,220,220,0,,1
+decoder_led,220,220,0,,1

@@ -1,0 +1,10 @@
+id,gold,tag,d_final,b_final,c_final,a_final,b_route_match,c_route_match,b_checklist,c_checklist,c_already_correct,query
+A29,analyst,clarified,ood,analyst,analyst,operator,1,1,1,1,1,"Using this session's samplers and last-run KPIs, investigate the impact of interarrival timing on event chronology."
+A34,analyst,core,ood,analyst,analyst,analyst,1,1,1,1,1,"On this run, what is cumulative_produced?"
+AH07,analyst_hybrid,clarified,ood,analyst_hybrid,analyst_hybrid,analyst,1,1,1,1,1,Explain why holding cost on the dashboard differs from the KPI dictionary using both the on-screen value and the documented formula; do not change shocks or run
+P02,static,probe_conflict,ood,static,static,analyst,1,1,1,1,1,Arrival Delay seed offset?
+S05,static,clarified,ood,analyst,analyst,analyst,0,0,0,0,0,"In the data adapter documented rewrite, which phantom ID was promoted to a sub-assembly?"
+S44,static,core,ood,static,static,analyst,1,1,1,1,1,In what unit does simulation time env.now advance?
+S51,static,core,ood,static,static,analyst,1,1,1,1,1,Which planning fields are listed as hot-swappable on Advance?
+S53,static,core,ood,analyst,static,analyst,0,1,0,1,1,What does the n_assembly_levels KPI count?
+T01,operator,trap,ood,operator,operator,operator,1,1,1,1,1,Propose a replay with Sales_Qty_pct=-100; do not explain slider docs.

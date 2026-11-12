@@ -1,0 +1,4 @@
+slice,label_source,n,unlabeled,metric,prod_k,dec_k,mcnemar_b_prod_win,mcnemar_c_dec_win,p_exact,claim_note,prod_wins,dec_wins,gold_csv_modified,note
+kappa45,gold,45,0,silent_safe,38,33,5,0,0.062,slice n.s. — does not reverse headline by itself,"A06,X03,X09,S08,S13",,no,45-id gold labels; benchmark_routing_dataset.csv unchanged
+kappa45,annotator2,45,0,silent_safe,38,33,5,0,0.062,slice n.s. — does not reverse headline by itself,"A06,X03,X09,S08,S13",,no,annotator2 as gold; gold-noise check
+kappa45,adjudicated,45,0,silent_safe,38,33,5,0,0.062,slice n.s. — does not reverse headline by itself,"A06,X03,X09,S08,S13",,no,adjudicated_route overrides gold on filled ids only

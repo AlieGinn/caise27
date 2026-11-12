@@ -1,0 +1,10 @@
+slice,contrast,n,metric,left,right,left_k,right_k,left_sm,right_sm,mcnemar_b,mcnemar_c,p_exact,p_exact_raw,prod_wins,dec_wins
+all,D_vs_B,220,silent_safe,production,decoder_only,176,144,44,76,36,4,<0.001,1.85702e-07,"A06,A21,AH02,AH05,AH10,AH12,AH20,O03,O06,O21,OH11,OH23,P04,S05,S08,S13,S18,S19,S53,S54,X03,X04,X05,X06,X08,X09,X10,X12,X13,X14,X16,X17,X18,X19,X20,X22","A41,O22,S35,S48"
+all,D_vs_C,220,silent_safe,production,decoder_led,176,157,44,63,20,1,<0.001,2.09808e-05,"O03,O21,P04,S05,X03,X04,X05,X06,X08,X09,X10,X12,X13,X14,X16,X17,X18,X19,X20,X22",O22
+all,C_vs_B,220,silent_safe,decoder_led,decoder_only,157,144,63,76,16,3,0.004,0.00442505,"A06,A21,AH02,AH05,AH10,AH12,AH20,O06,OH11,OH23,S08,S13,S18,S19,S53,S54","A41,S35,S48"
+in_scope,D_vs_B,185,silent_safe,production,decoder_only,157,144,28,41,17,4,0.007,0.00719738,"A06,A21,AH02,AH05,AH10,AH12,AH20,O06,OH11,OH23,S05,S08,S13,S18,S19,S53,S54","A41,O22,S35,S48"
+in_scope,D_vs_C,185,silent_safe,production,decoder_led,157,157,28,28,1,1,1.000,1,S05,O22
+in_scope,C_vs_B,185,silent_safe,decoder_led,decoder_only,157,144,28,41,16,3,0.004,0.00442505,"A06,A21,AH02,AH05,AH10,AH12,AH20,O06,OH11,OH23,S08,S13,S18,S19,S53,S54","A41,S35,S48"
+gold_ood,D_vs_B,35,silent_safe,production,decoder_only,19,0,16,35,19,0,<0.001,3.8147e-06,"O03,O21,P04,X03,X04,X05,X06,X08,X09,X10,X12,X13,X14,X16,X17,X18,X19,X20,X22",
+gold_ood,D_vs_C,35,silent_safe,production,decoder_led,19,0,16,35,19,0,<0.001,3.8147e-06,"O03,O21,P04,X03,X04,X05,X06,X08,X09,X10,X12,X13,X14,X16,X17,X18,X19,X20,X22",
+gold_ood,C_vs_B,35,silent_safe,decoder_led,decoder_only,0,0,35,35,0,0,1.000,1,,

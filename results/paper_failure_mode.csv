@@ -1,0 +1,5 @@
+architecture,label,n,pass,wrong_route,claim_miss,kart,error,on_route_n,on_route_ungated_pass,on_route_ungated_pct
+fat_agent,A Fat,220,65,153,1,1,0,66,65,98.5
+decoder_only,B Decoder-only,220,148,54,18,0,0,144,126,87.5
+production,D Production,220,157,33,20,9,1,167,147,88.0
+decoder_led,"C tiny-encoder+decoder, no card",220,162,38,20,0,0,157,137,87.3

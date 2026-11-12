@@ -1,0 +1,6 @@
+id,gold,tag,oracle_card,d_first_final,d_first_checklist,b_checklist,c_checklist,follow_final,follow_route_match,follow_checklist,follow_failure_mode,recovered,expected_from_b,query
+A29,analyst,clarified,Analysis,ood,False,1,1,analyst,True,True,pass,1,1,"Using this session's samplers and last-run KPIs, investigate the impact of interarrival timing on event chronology."
+AH07,analyst_hybrid,clarified,Analysis + Technical context,ood,False,1,1,analyst_hybrid,True,True,pass,1,1,Explain why holding cost on the dashboard differs from the KPI dictionary using both the on-screen value and the documented formula; do not change shocks or run
+P02,static,probe_conflict,Technical context,ood,False,1,1,static,True,True,pass,1,1,Arrival Delay seed offset?
+S05,static,clarified,Technical context,ood,False,0,0,static,True,False,claim_miss,0,0,"In the data adapter documented rewrite, which phantom ID was promoted to a sub-assembly?"
+T01,operator,trap,Operator,ood,False,1,1,operator,True,True,pass,1,1,Propose a replay with Sales_Qty_pct=-100; do not explain slider docs.

@@ -1,0 +1,4 @@
+metric,label,n,prod_k,prod_pct,prod_wilson95,dec_k,dec_pct,dec_wilson95,fat_k,fat_pct,fat_wilson95,mcnemar_b_prod_win,mcnemar_c_dec_win,chi2,p_exact,p_chi2,claim
+checklist,Checklist — rota + davranış + zorunlu/yasak iddialar,127,97,76.4,68–83,90,70.9,62–78,38,29.9,23–38,16,9,1.960,0.230,0.162,n.s. — içerik ayırt edilemez
+route,Sıkı rota (beklenen yol = tahmin),127,104,81.9,74–88,90,70.9,62–78,39,30.7,23–39,19,5,8.167,0.007,0.004,production > decoder
+silent_safe,Doğru yol veya şahibeli kart,127,109,85.8,79–91,90,70.9,62–78,40,31.5,24–40,20,1,17.190,<0.001,<0.001,production > decoder
